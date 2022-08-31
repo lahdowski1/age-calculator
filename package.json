@@ -1,0 +1,31 @@
+{
+  "name": "howold",
+  "version": "1.0.0",
+  "description": "An API that calculates the age of a person from a dob timestamp",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lahdowski1/howold.git"
+  },
+  "author": "JOSHUA OLADUNJOYE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipeline-v2-eligibility/backend-starter/issues"
+  },
+  "homepage": "https://github.com/pipeline-v2-eligibility/backend-starter#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.2",
+    "http-status-codes": "^2.2.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
