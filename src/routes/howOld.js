@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import howoldController from "../controllers/howOld";
-import { validateDob } from "../middleware";
+import { validateDob } from "../middlewares";
 
 const router = Router();
 

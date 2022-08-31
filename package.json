@@ -1,11 +1,11 @@
 {
-  "name": "howold",
+  "name": "age-calculator",
   "version": "1.0.0",
   "description": "An API that calculates the age of a person from a dob timestamp",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",

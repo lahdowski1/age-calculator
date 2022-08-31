@@ -1,16 +1,14 @@
 import { json, urlencoded } from 'express'
 import cors from 'cors'
 import howOldRouter from "./routes/howOld.js"
-import { rateLimiter } from "./middleware"
+import { rateLimiter } from "./middlewares"
 
-const port = process.env.PORT || 3045
+const port = process.env.PORT || 9079
 
 const config = (app) => {
     app.use(cors());
     app.use(urlencoded({ extended: true }))
     app.use(json()); //parse json
-
-    //app.get('/', (req, res)=>res.send('Welcome.'));
 
     app.use('/howold', rateLimiter) //rateLimiter middleware limits number of requests per second
 
