@@ -4,6 +4,6 @@ import { validateDob } from "../middlewares";
 
 const router = Router();
 
-router.get('/', validateDob, howoldController);
+router.get('/howold', validateDob, howoldController);
 
 export default router;

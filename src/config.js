@@ -10,9 +10,9 @@ const config = (app) => {
     app.use(urlencoded({ extended: true }))
     app.use(json()); //parse json
 
-    app.use('/howold', rateLimiter) //rateLimiter middleware limits number of requests per second
+   // app.use('/howold', rateLimiter) //rateLimiter middleware limits number of requests per second
 
-    app.use('/howold', howOldRouter)
+    app.use('/api/v1', rateLimiter, howOldRouter) //rateLimiter middleware limits number of requests per second
 
     app.use('*', (req, res)=>res.send('Route does not exist'))
 
