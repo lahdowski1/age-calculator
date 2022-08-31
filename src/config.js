@@ -12,9 +12,9 @@ const config = (app) => {
 
    // app.use('/howold', rateLimiter) //rateLimiter middleware limits number of requests per second
 
-    app.use('/api/v1', rateLimiter, howOldRouter) //rateLimiter middleware limits number of requests per second
+    app.use('/howold', rateLimiter, howOldRouter) //rateLimiter middleware limits number of requests per second
 
-    //app.use('*', (req, res)=>res.send('Route does not exist'))
+    app.use('*', (req, res)=>res.send('Route does not exist'))
 
     app.listen(port, ()=>{
         console.log(`This app is listening on port ${port}`)
