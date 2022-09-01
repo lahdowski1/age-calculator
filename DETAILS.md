@@ -10,7 +10,7 @@ app.js is used to start the app
 This contains the middlewares
 
 ### routes
-This contains files that perform the routing
+This contains the files that perform the routing
 
 ### controllers
 This contain the files that perform the logic
@@ -29,10 +29,10 @@ Let's encrypt - a free, automated, and open certificate authority was used
 
 
 # How does it work
- • Download the code
- • Navigate inside the project folder on terminal
- • Do a npm install for installing all the project dependencies
- • Then npm start (using nodemon) OR node app.js to run the app on localhost
+ ## Download the code
+ ## Navigate inside the project folder on terminal
+ ## Do a npm install for installing all the project dependencies
+ ## Then npm start (using nodemon) OR node app.js to run the app on localhost
 
  # Making a request
 
