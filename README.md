@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/96c6e6cc75104870a8f23845fec1e0ba)](https://www.codacy.com/gh/lahdowski1/age-calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lahdowski1/age-calculator&amp;utm_campaign=Badge_Grade)
+
 # Backend Assessment
 
 Build and deploy a very simple API that does the following
