@@ -1,7 +1,7 @@
 import { json, urlencoded } from 'express'
 import cors from 'cors'
 import howOldRouter from "./routes/howOld.js"
-import { rateLimiter } from "./middlewares"
+import { rateLimiter } from "./middlewares/index.js"
 
 const port = process.env.PORT || 9079
 

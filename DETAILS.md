@@ -18,7 +18,6 @@ This contain the files that perform the logic
 ### utils
 This contain the files that perform reusable logic
 
-
 ## Deployment
 
 ### Hosting
@@ -27,26 +26,23 @@ The application is deployed on a Digital Ocean Ubuntu Droplet
 ### SSL Certificate
 Let's encrypt - a free, automated, and open certificate authority was used
 
+## How does it work
+ ### Download the code
+ ### Navigate inside the project folder on terminal
+ ### Do a npm install for installing all the project dependencies
+ ### Then npm start (using nodemon) OR node app.js to run the app on localhost
 
-# How does it work
- ## Download the code
- ## Navigate inside the project folder on terminal
- ## Do a npm install for installing all the project dependencies
- ## Then npm start (using nodemon) OR node app.js to run the app on localhost
+ ## Making a request
 
- # Making a request
-
- ## Base URL
+ ### Base URL
  The Base url is https://dobengine.taxit.com.ng
 
- ## Endpoint
+ ### Endpoint
  The endpoint is /howold
 
- ## Request
+ ### Request
  Request type: GET
-
  Query Params format: The parameter is dob and it takes a timestamp
-
  Sample request: https://dobengine.taxit.com.ng/howold?dob=768826321000
 
   
